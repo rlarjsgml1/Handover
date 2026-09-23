@@ -1,0 +1,34 @@
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+*.swp
+
+# ===== Secrets (절대 커밋 금지) =====
+.env
+.env.*
+!.env.example
+application-secret.properties
+application-secret.yml
+
+# ===== Frontend (Node / Vite) =====
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Backend (Spring / Java) =====
+build/
+out/
+target/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+*.class
+*.log
